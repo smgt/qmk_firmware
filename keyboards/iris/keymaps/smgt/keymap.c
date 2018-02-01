@@ -34,7 +34,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|----+----+----+----+----+----|              |----+----+----+----+----+----|
      LCTL, A  , S  , D  , F  , G  ,                H  , J  , K  , L  ,SCLN,QUOT,
   //|----+----+----+----+----+----+----.    ,----|----+----+----+----+----+----|
-     TILD, Z  , X  , C  , V  , B  ,LGUI,     LGUI, N  , M  ,COMM,DOT ,SLSH,RSFT,
+     TILD, Z  , X  , C  , V  , B  ,RGUI,     LGUI, N  , M  ,COMM,DOT ,SLSH,RSFT,
   //`----+----+----+--+-+----+----+----/    \----+----+----+----+----+----+----'
                        RASE,BSPC,LOWR,         ENT ,SPC ,LALT
   //                  `----+----+----'        `----+----+----'
@@ -42,13 +42,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_LOWER] = KC_KEYMAP(
   //,----+----+----+----+----+----.              ,----+----+----+----+----+----.
-     TILD,EXLM, AT ,HASH,DLR ,PERC,               CIRC,AMPR,ASTR,LPRN,RPRN,BSPC,
+     TILD,EXLM, AT ,HASH,DLR ,PERC,               CIRC,AMPR,ASTR,LPRN,RPRN,PLUS,
   //|----+----+----+----+----+----|              |----+----+----+----+----+----|
-     RST , 1  , 2  , 3  , 4  , 5  ,                6  , 7  , 8  , 9  , 0  ,    ,
+     RST ,   ,   ,   ,   ,   ,                    EQL ,LCBR,RCBR,LBRC,RBRC,    ,
   //|----+----+----+----+----+----|              |----+----+----+----+----+----|
-     DEL ,    ,LEFT,RGHT, UP ,LBRC,               RBRC, P4 , P5 , P6 ,PLUS,PIPE,
+     DEL ,    ,    ,    ,    ,    ,               LEFT,DOWN,UP  ,RGHT,    ,PIPE,
   //|----+----+----+----+----+----+----.    ,----|----+----+----+----+----+----|
-         ,    ,    ,    ,DOWN,LCBR,LPRN,     RPRN,RCBR, P1 , P2 , P3 ,MINS,    ,
+         ,    ,    ,    ,,,,     ,, ,,,,    ,
   //`----+----+----+--+-+----+----+----/    \----+----+----+----+----+----+----'
                            ,    ,    ,         DEL ,    , P0
   //                  `----+----+----'        `----+----+----'
