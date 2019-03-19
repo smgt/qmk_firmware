@@ -21,8 +21,8 @@ enum custom_keycodes {
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT(
-        KC_MPLY, KC_NO,   KC_NO, \
-        KC_MPRV, KC_MSTP, KC_MNXT, \
+        KC_MPLY, KC_MUTE, KC_NO, \
+        KC_MPRV, KC_MPLY, KC_MNXT, \
         KC_DEL,  KC_E,    SCREENSAVER\
     ),
     [1] = LAYOUT(
