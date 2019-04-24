@@ -26,6 +26,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MANUFACTURER    Keebio
 #define PRODUCT         BDN9
 #define DESCRIPTION     3x3 Macropad with Rotary Encoders
+#define USB_MAX_POWER_CONSUMPTION 100
 
 /* key matrix size */
 #define MATRIX_ROWS 3
