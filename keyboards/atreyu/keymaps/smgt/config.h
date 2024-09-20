@@ -24,3 +24,4 @@
 #endif
 
 #define RETRO_TAPPING
+#define OLED_DISPLAY_128X32

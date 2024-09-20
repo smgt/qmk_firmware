@@ -1,4 +1,6 @@
 BOOTMAGIC_ENABLE = yes      # Enable Bootmagic Lite
+OLED_ENABLE = yes
+WPM_ENABLE = yes
 MOUSEKEY_ENABLE = no        # Mouse keys
 EXTRAKEY_ENABLE = yes       # Audio control and System control
 CONSOLE_ENABLE = no         # Console for debug
